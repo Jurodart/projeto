@@ -47,5 +47,5 @@ function btnDesencriptar() {
 
 function btncopiar() {
     copiar = criptografar
-    navigator.clipboard.writeText(criptografar);
+    navigator.clipboard.writeText(document.getElementById('mensagem').value);
 }
